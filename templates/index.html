@@ -1,0 +1,39 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Autonomous Helicopter Control</title>
+</head>
+<body>
+
+<h1>Autonomous Helicopter Control</h1>
+
+<form action="/submit_flight_path" method="POST">
+<label for="start_latitude">Starting Latitude:</label>
+<input type="text" id="start_latitude" name="start_latitude">
+
+<label for="start_longitude">Starting Longitude:</label>
+<input type="text" id="start_longitude" name="start_longitude">
+
+<label for="end_latitude">Ending Latitude:</label>
+<input type="text" id="end_latitude" name="end_latitude">
+
+<label for="end_longitude">Ending Longitude:</label>
+<input type="text" id="end_longitude" name="end_longitude">
+
+<label for="altitude">Altitude (meters):</label>
+<input type="text" id="altitude" name="altitude">
+
+<input type="submit" value="Submit">
+</form>
+
+<br>
+
+<a href="/get_status">Check Helicopter Status</a>
+
+</body>
+</html>
+
+
+---
+
